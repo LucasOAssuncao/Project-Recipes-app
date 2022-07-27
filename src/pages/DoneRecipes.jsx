@@ -84,11 +84,11 @@ function DoneRecipes() {
                 <img src={ shareIcon } alt="icone de perfil" />
               </button>
               {copied && <p data-testid="oi">Link copied!</p>}
-              {e.tags.map((item, index) => (
+              {/* {e.tags.map((item, index) => (
                 <h3 key={ index } data-testid={ `${i}-${item}-horizontal-tag` }>
                   {item}
                 </h3>
-              ))}
+              ))} */}
             </div>
           ))}
         </div>
